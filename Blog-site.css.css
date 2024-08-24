@@ -1,0 +1,131 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f9f9f9; /* Light background for positive vibes */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ffffff; /* White background for header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a light effect */
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 700;
+    color: #009688; /* A calming teal color for the logo */
+    text-decoration: none;
+    font-family: 'Playfair Display', serif; /* Elegant font for the logo */
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #555; /* Soft gray for navigation links */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: 'Montserrat', sans-serif; /* Consistent font for navigation links */
+}
+
+.nav-links a:hover {
+    color: #009688; /* Hover effect for navigation links */
+}
+
+/* Header Content */
+.header-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: #333; /* Darker gray for readability */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif; /* Elegant font for header */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777; /* Lighter gray for the subheading */
+    font-family: 'Montserrat', sans-serif; /* Consistent font for subheading */
+}
+
+/* Main Content */
+main {
+    background-color: #fff; /* White background for the main content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow to lift the content */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+.introduction, .lesson, .conclusion {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #009688; /* Teal for headings to add a pop of color */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif; /* Elegant font for section headings */
+}
+
+p {
+    color: #444; /* Slightly darker gray for text */
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #f0f8f8; /* Light teal background for quotes */
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-left: 5px solid #009688;
+    color: #555;
+    border-radius: 5px; /* Rounded corners for blockquote */
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+footer p {
+    color: #777;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif; /* Consistent font for footer text */
+}
